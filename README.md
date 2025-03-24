@@ -11,5 +11,7 @@ Uygulama Adresi: Yok
 
 Grup Adı: nayciyilmaz
 
-1-[Gereksinim Analizi](https://github.com/nayciyilmaz/ReaderApp/blob/main/Gereksinim-Analizi.md)
+1-[Gereksinim Analizi](https://github.com/nayciyilmaz/ReaderApp/blob/main/Gereksinim-Analizi.md)  
+
+
 2-[Durum Senaryoları](https://github.com/nayciyilmaz/ReaderApp/blob/main/YilmazNayci-DurumSenaryolari.pdf)
