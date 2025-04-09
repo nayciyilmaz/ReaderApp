@@ -84,6 +84,17 @@ dependencies {
     // Coil
     implementation("io.coil-kt:coil-compose:2.5.0")
 
+    //Icons
+    implementation ("androidx.compose.material:material-icons-extended:1.7.8")
+
+    // Retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
+
+    // OkHttp
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+
+    // JSON Converter (Gson)
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
 }
 
 kapt {
