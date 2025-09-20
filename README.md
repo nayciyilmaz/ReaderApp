@@ -1,17 +1,43 @@
-Proje Adı: ReaderApp
+![Logo](https://github.com/nayciyilmaz/ReaderApp/blob/main/fotooo.jpg?raw=true)
 
-Proje Tanımı:
-Kitap Takip Uygulaması, kullanıcıların okudukları ve okumak istedikleri kitapları kolayca takip etmelerini sağlayan bir platformdur. Kullanıcılar, kişisel kitap listelerini oluşturarak, okunan ve okunacak kitaplarını kategorilere ayırabilir. Kitapları arayarak, Android kitaplığından ekleyebilir, kitapları tamamladıktan sonra yorum yapabilir ve puan verebilirler. Ayrıca, kullanıcılar profil sayfalarından okudukları ve okumak istedikleri kitapların sayısını görüntüleyebilirler. Firebase ile entegre edilen bu uygulama, kullanıcı verilerini güvenli bir şekilde saklar ve kullanıcı deneyimini kişiselleştirir. Kitap Takip Uygulaması, kitap severlerin kitap okuma deneyimlerini daha düzenli ve keyifli hale getirmeyi amaçlıyor.
+A modern Android reading application built with Jetpack Compose and Firebase that allows users to search, save, and track their reading progress.
 
-Proje Kategorisi: Kişisel Kitap Takip / Eğlence
+##Features
 
-Referans Uygulama: Yok
+User Authentication: Secure login and registration with Firebase Auth
+Book Search: Search for books using Google Books API
+Personal Library: Save books to your personal collection
+Reading Progress: Track books you're currently reading and finished books
+Reading Statistics: View your reading stats and achievements
+Material 3 Design: Modern UI with Material Design 3 components
 
-Uygulama Adresi: Yok
+##Architecture
+This app follows MVVM (Model-View-ViewModel) architecture pattern with:
 
-Grup Adı: nayciyilmaz
+Jetpack Compose for UI
+Dagger Hilt for dependency injection
+Firebase Firestore for data storage
+Firebase Authentication for user management
+Retrofit for API calls
+Coroutines for asynchronous operations
 
-1-[Gereksinim Analizi](https://github.com/nayciyilmaz/ReaderApp/blob/main/Gereksinim-Analizi.md)  
+##Frontend
 
+Jetpack Compose - Modern Android UI toolkit
+Material 3 - Latest Material Design components
+Navigation Compose - Type-safe navigation
+Coil - Image loading library
 
-2-[Durum Senaryoları](https://github.com/nayciyilmaz/ReaderApp/blob/main/YilmazNayci-DurumSenaryolari.pdf)
+##Backend & Data
+
+Firebase Firestore - NoSQL cloud database
+Firebase Authentication - User authentication service
+Google Books API - Book search and information
+Retrofit - HTTP client for API calls
+
+##Architecture & DI
+
+Dagger Hilt - Dependency injection
+ViewModel - UI-related data holder
+Repository Pattern - Data layer abstraction
+Coroutines - Asynchronous programming
